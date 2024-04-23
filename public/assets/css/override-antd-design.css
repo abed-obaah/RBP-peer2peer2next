@@ -1,0 +1,9 @@
+.ant-upload.ant-upload-select {
+    display: block!important;
+ }
+ .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: #292929!important;
+}
+.ant-tabs-tab:hover {
+    color: #292929!important;
+}
