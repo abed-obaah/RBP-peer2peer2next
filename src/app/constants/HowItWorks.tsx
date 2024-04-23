@@ -57,7 +57,7 @@ const HowItWorks = () => {
               <div className='flex lg:flex-row flex-col-reverse place-items-center lg:justify-start justify-end mb-10'>
                   <div className='lg:basis-1/2 flex flex-col lg:place-items-start place-items-center justify-center lg:mr-10'>
                     <div className='flex flex-row place-items-center mb-5'>
-                      <img src={ChooseLoanImg} width={45} alt="" />
+                      <Image src={ChooseLoanImg} width={45} alt="" />
                       <span className="ml-5 text-[0.9rem] text-[#38403A]">Select Loan <br/> Type</span>
                     </div>
                     <p className='text-[1.05rem] text-[#38403A] lg:text-left text-center font-light'>Apply for a loan by selecting the most relevant option</p>

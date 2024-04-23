@@ -9,7 +9,7 @@ import CommentUI from './components/CommentUI';
 const Blog = () => {
     return (
         <BaseLayout>
-            <BlogComponent />
+            <BlogComponent blog={undefined} />
             <FormUI />
             <CommentUI />
         </BaseLayout>
