@@ -3,7 +3,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import sliderBgImage from '/public/assets/images/slider-bg-image.png';
+import sliderBgImage from '../../assets/images/slider-bg-image.png';
 
 const HomeSlider = () => {
   return (

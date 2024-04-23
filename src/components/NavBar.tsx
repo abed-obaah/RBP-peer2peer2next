@@ -1,8 +1,8 @@
 import React from 'react';
 import { MailOutlined, UserOutlined, SearchOutlined, MenuOutlined } from '@ant-design/icons';
 import Link from 'next/link';
-import logo from '../../public/assets/images/logo.png';
-import logoInverse from '../../public/assets/images/logo-white.svg';
+import logo from '../assets/images/logo.png';
+import logoInverse from '../assets/images/logo-white.svg';
 import { Drawer } from 'antd';
 
 const NavBar = () => {

@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link'
 // import { FacebookFilled, InstagramFilled, TwitterOutlined } from '@ant-design/icons';
-import logo from '../../public/assets/images/logo-white.svg';
+import logo from '../assets/images/logo-white.svg';
 import Image from 'next/image';
 const Footer: React.FC = () => {
   return (
