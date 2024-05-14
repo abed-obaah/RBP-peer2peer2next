@@ -2,9 +2,9 @@ import React from 'react';
 import { MailOutlined, UserOutlined, SearchOutlined, MenuOutlined } from '@ant-design/icons';
 import Link from 'next/link';
 // import logo from '../assets/images/logo.png';
-import logo from '@/public/images/logo.png';
+import logo from '@/public/logo.png';
 // import logoInverse from '../assets/images/logo-white.svg';
-import logoInverse from '@/public/images/logo-white.svg';
+import logoInverse from '@/public/logo-white.svg';
 import { Drawer } from 'antd';
 
 const NavBar = () => {

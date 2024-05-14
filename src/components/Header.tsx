@@ -5,9 +5,9 @@ import { Drawer } from 'antd';
 import { MailOutlined, UserOutlined, MenuOutlined } from '@ant-design/icons';
 import Link from 'next/link'; // Import Link from Next.js
 // import logo from '../assets/images/logo.png'
-import logo from '@/public/images/logo.png'
+import logo from '@/public/logo.png'
 // import logoInverse from '../assets/images/logo-white.svg';
-import logoInverse from '@/public/images/logo-white.svg';
+import logoInverse from '@/public/logo-white.svg';
 import NavBar from './NavBar';
 import Image from 'next/image';
 

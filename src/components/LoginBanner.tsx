@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 // import bannerImage from '../assets/images/banner.png';
-import bannerImage from '@/public/images/banner.png';
+import bannerImage from '@/public/banner.png';
 import Image from 'next/image';
 
 const LoginBanner: React.FC = () => {
