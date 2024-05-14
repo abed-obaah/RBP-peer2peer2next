@@ -5,7 +5,7 @@
   "dependencies": {
     "@ant-design/icons": "^5.3.6",
     "@emotion/react": "^11.9.3",
-    "@next/swc-win32-x64-msvc": "^14.2.3",
+    
     "@reactour/tour": "^3.6.1",
     "@reduxjs/toolkit": "^2.2.3",
     "@testing-library/jest-dom": "^6.4.2",
