@@ -14,7 +14,7 @@
     "incremental": true,
     "baseUrl": ".", // Added baseUrl for proper path resolution
     "paths": {
-      "@/*": ["src/*"], // Adjusted path for clarity
+      "@/*": ["src/*"],
       "@/public/*": ["public/*"]
     }
   },

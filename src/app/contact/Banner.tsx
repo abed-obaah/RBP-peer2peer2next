@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 // import ContactImage from '/public/assets/images/contact.png'; // Import the image here
-import ContactImage from '../public/contact.png'; // Import the image here
+import ContactImage from '@/public/contact.png'; // Import the image here
 
 const Banner = () => {
     return (
