@@ -20,7 +20,7 @@
     "baseUrl": ".", // Added baseUrl for proper path resolution
     "paths": {
       "@/*": ["src/*"], // Adjusted path for clarity
-      "@/public/*": ["public/*"]
+      "@/public/*": ["/public*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
