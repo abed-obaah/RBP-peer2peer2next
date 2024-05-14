@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 // import aboutImage from '../../assets/about.png'; // Import the image here
-import aboutImage from '../../../public/about.png'; // Import the image here
+import aboutImage from '../public/about.png'; // Import the image here
 
 const Banner = () => {
     return (
