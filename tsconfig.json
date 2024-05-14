@@ -17,8 +17,9 @@
         "name": "next"
       }
     ],
+    "baseUrl": ".", // Added baseUrl for proper path resolution
     "paths": {
-      "@/*": ["./src/*"],
+      "@/*": ["src/*"], // Adjusted path for clarity
       "@/public/*": ["public/*"]
     }
   },
