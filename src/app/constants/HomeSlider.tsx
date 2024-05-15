@@ -4,7 +4,7 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 // import sliderBgImage from '../../assets/images/slider-bg-image.png';
-import sliderBgImage from '@/public/slider-bg-image.png';
+// import sliderBgImage from '@/public/slider-bg-image.png';
 
 const HomeSlider = () => {
   return (
@@ -19,7 +19,7 @@ const HomeSlider = () => {
       {/* Background Image */}
       <div className="hidden lg:block lg:col-span-1 rounded-br-[50px]">
         <div className="relative h-[696px]">
-          <Image src={sliderBgImage} alt="Slider Background Image" layout="fill" objectFit="cover" />
+          <Image src="https://i.postimg.cc/T3tYSq6d/slider-bg-image.png"  alt="Slider Background Image" layout="fill" objectFit="cover" />
         </div>
       </div>
     </div>

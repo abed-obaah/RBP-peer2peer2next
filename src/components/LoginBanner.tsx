@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import bannerImage from '@/public/banner.png';
+// import bannerImage from '@/public/banner.png';
 import Image from 'next/image';
 
 const LoginBanner: React.FC = () => {
@@ -16,7 +16,7 @@ const LoginBanner: React.FC = () => {
         
         {/* Right Side */}
         <div className="col-span-2 lg:col-span-3 h-[500px] w-full relative overflow-hidden">
-          <Image src={bannerImage} alt="Banner Image" layout="fill" objectFit="cover" />
+          <Image src="https://i.postimg.cc/BvvtQ7gP/banner.png"  alt="Banner Image" layout="fill" objectFit="cover" />
         </div>
       </div>
     );

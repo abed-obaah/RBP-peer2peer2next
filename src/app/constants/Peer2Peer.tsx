@@ -2,7 +2,7 @@
 
 import React from 'react'
 import 'tw-elements';
-import ThirdBanner from '@/public/banner-3.png'
+// import ThirdBanner from '@/public/banner-3.png'
 import Image from 'next/image';
 
 
@@ -16,7 +16,7 @@ const Peer2Peer = () => {
               <a href="#" className="border-2 border-[#355774] rounded-full px-10 py-3 text-lg  text-sm text-[#292929]">Learn More</a>
           </div>
           <div className="lg:col-span-5 flex justify-end w-full">
-            <Image src={ThirdBanner} alt="banner-3"/>
+            <Image src="https://i.postimg.cc/9M6fbmjy/banner-3.png" width={500} height={500}  alt="banner-3"/>
           </div>
       </div>
     )

@@ -2,14 +2,14 @@ import React from 'react';
 import Link from 'next/link'
 // import { FacebookFilled, InstagramFilled, TwitterOutlined } from '@ant-design/icons';
 // import logo from '../assets/images/logo-white.svg';./src
-// import logo from '@/public/logo-white.svg'
+// import logo from '../../public/logo-white.svg'
 import Image from 'next/image';
 const Footer: React.FC = () => {
   return (
     <div className="grid grid-cols-12 pt-20 md:px-[150px] lg:px-[150px] w-full bg-[#292929] text-white">
       <div className="col-span-12 lg:col-span-4 md:pr-20 lg:pr-[150px] p-5 flex flex-col justify-center place-items-center">
         <div>
-          <Image src="../../public/logo-white.svg" width={150} alt="Riverbank Partner" />
+          <Image src='https://i.postimg.cc/fTkHmMR8/logo-white-Copy.png' width={150} height={150} alt="Riverbank Partner" />
           <p className="text-justify text-[#BABABA]">
             A Pan-African digital platform designed to help businesses and individuals fund their aspirational needs.
           </p>

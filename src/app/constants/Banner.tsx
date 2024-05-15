@@ -1,15 +1,16 @@
 import React from 'react';
 import Image from 'next/image';
 // import aboutImage from '../../assets/about.png'; // Import the image here
-import aboutImage from '@/public/about.png'; // Import the image here
+// import aboutImage from '@/public/about.png'; // Import the image here
 
 const Banner = () => {
     return (
         <div className="relative h-[495px] bg-[#355774] rounded-b-[50px] overflow-hidden">
             {/* Background Image */}
             <div className="absolute inset-0 z-0">
-                <Image src={aboutImage} alt="About Image" layout="fill" objectFit="cover" />
+                <Image src='https://i.postimg.cc/Ls05qkCC/about.png'   alt="About Image" layout="fill" objectFit="cover" />
             </div>
+            {/* Overlay */}
             {/* Overlay */}
             <div className="absolute inset-0 bg-black opacity-50 z-10"></div>
             {/* Content */}

@@ -5,7 +5,7 @@ import { Drawer } from 'antd';
 import { MailOutlined, UserOutlined, MenuOutlined } from '@ant-design/icons';
 import Link from 'next/link'; // Import Link from Next.js
 // import logo from '../assets/images/logo.png'
-import logo from '@/public/logo.png'
+// import logo from '@/public/logo.png'
 // import logoInverse from '../assets/images/logo-white.svg';
 import logoInverse from '@/public/logo-white.svg';
 import NavBar from './NavBar';
@@ -45,7 +45,7 @@ const Header = () => {
 
           <div className="hidden xs:block sm:block col-span-3 flex mb-5 flex-row justify-between justify-center place-items-center">
               {/* <MenuOutlined className="hidden sm:block xs:block text-2xl" onClick={showDrawer} /> */}
-              <Image src={logo} width={159} height={82} alt="RiverBank Partners"/>
+              <Image src='https://i.postimg.cc/Nf708vCr/logo.png' width={159} height={82} alt="RiverBank Partners"/>
           </div>
 
           <div className="hidden md:flex lg:flex justify-end py-5">
@@ -78,7 +78,7 @@ const Header = () => {
 
                     <div className="xs:block sm:block col-span-3 flex mb-5 flex-row justify-between items-center">
                       <MenuOutlined className="sm:block xs:block text-2xl" onClick={showDrawer} />
-                      <Image src={logo} width={159} height={82} alt="RiverBank Partners" />
+                      <Image src="https://i.postimg.cc/Nf708vCr/logo.png" width={159} height={82} alt="RiverBank Partners" />
                   </div>
 
 
